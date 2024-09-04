@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (index < aboutText.length) {
             aboutElement.innerHTML += aboutText.charAt(index);
             index++;
-            setTimeout(typeWriter, 45); // Adjust typing speed by changing the timeout value
+            setTimeout(typeWriter, 23); // Adjust typing speed by changing the timeout value
         }
     }
 
