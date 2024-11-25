@@ -1,91 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bryan Lin</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <h1>Hi, I'm Bryan Lin.</h1>
-        <div class="profile-picture-container">
-          <img
-            src="files/profile-picture.jpg"
-            alt="Bryan Lin"
-            class="profile-picture"
-          />
-        </div>
-        <p>A Computer Engineering student at San Jose State University</p>
-      </header>
-      <main>
-        <section class="about-me">
-          <h2>About Me</h2>
-          <p id="about-text"></p>
-        </section>
-
-        <section class="projects">
-          <h2>Projects</h2>
-          <div class="projects-container">
-            <div class="project-box">
-              <h3>Restaurant Ordering Backend</h3>
-              <p>Developed in C/C++ to construct a resilient and scalable system to accommodate users. Used MySQL for user data, such as previous orders and frequently ordered items.</p>
-            </div>
-            <div class="project-box">
-              <h3>Magic The Gathering Bot</h3>
-              <p>Developed a chatbot using Python, allowing users to look up cards and game interactions. Utilizing Scryfall API to access their database of cards.</p>
-            </div>
-            <div class="project-box">
-              <h3>Password Generator</h3>
-              <p>Created a personal password generator in Python, which follows the OWASP requirements, generating strong and effective passwords.</p>
-            </div>
-            <!-- Add more project boxes as needed -->
-          </div>
-        </section>
-
-
-        <section class="activities">
-          <div class="activities-container">
-            <div class="column">
-              <h3>Languages</h3>
-              <ul>
-                <p>&gt; Python, C++, C, JavaScript</p>
-              </ul>
-            </div>
-            <div class="column">
-              <h3>Technologies</h3>
-              <ul>
-                <p>&gt; MySQL, SQL, HTML, CSS</p>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <! –Make sure to add project here later when we update it –>
-        <section class="current-project">
-          <p>
-            I'm currently working at
-            <a href="https://www.sjsu.edu/">San Jose State University</a>, as a
-            General Lab Assistant.
-          </p>
-        </section>
-      </main>
-      <section class="contact">
-        <h3>Contact</h3>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="files/favicon.ico">
+  
+</head>
+<body>
+  <header>
+    <h1>BryanLin</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="project.html">Projects</a>
+      <a href="mailto:bryanlin404@gmail.com">Mail</a>
+    </nav>
+  </header>
+  <div class="container">
+    <main>
+      <section class="about">
+        <h2>About</h2>
+        <p>I live in San Jose, California, and am currently a student at San Jose State University (SJSU), 
+          exploring the fields of Computer Engineering and Software Design.
+          With hands-on experience in backend design and proficiency in multiple programming languages, 
+          I am passionate about building efficient and scalable systems. Outside of academics,
+          I enjoy exploring the outdoors, engaging in trading, and immersing myself in gaming.
+        </p>
       </section>
-      <footer>
-        <a class="btn" href="https://github.com/7HE-LUCKY-FISH">
-          <img src ="files/githubicon.png" alt = "github" style="width: 22px; height: 22px;"/>
-        </a>
-        <a class="btn" href="https://www.linkedin.com/in/bryan-lin-767430278/">
-          <img src = "files/linkedinicon.jpeg" alt = "linkedin" style = "width: 22px; height: 22px;"/>
-        </a>
-        <a class="btn" href="mailto:bryanlin404@gmail.com">
-          <img src ="files/mail.png" alt = "email" style = "width: 22px; height: 22px;"/>
-        </a>
-        <a class="btn" href="files/BryanLin Resume 10_13.pdf">Download CV</a>
-      </footer>
-    </div>
-    <script src="js/script.js"></script>
-  </body>
+      <section class="images">
+        <div class="image-stack">
+          <img src="files/profile-picture.jpg" alt="Picture 1">
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; 2024 Bryan Lin</p>
+    <div class="social">
+      <a href="files/BryanLin_Resume_10_29.pdf">CV</a>
+      <a href="https://github.com/7HE-LUCKY-FISH">GitHub</a>
+      <a href="https://www.linkedin.com/in/bryan-lin-767430278/">LinkedIn</a>
+  </footer>
+</body>
 </html>
