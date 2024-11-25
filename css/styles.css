@@ -58,7 +58,7 @@ main {
   justify-content: center;
   gap: 40px; /* Space between columns */
   position: relative;
-  min-height: 600px;
+  min-height: 500px;
   max-width: 900px;
   margin: 0 auto; 
 }
@@ -207,4 +207,40 @@ footer p {
 
 .social a:hover {
   color: #666;
+}
+
+
+/* Responsive styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+  border: 2px solid #f4f4f4; /* Add border for contrast */
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #f4f4f4;
+}
+
+.about:not(:hover)::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.about:not(:hover) {
+  scrollbar-color: transparent transparent;
 }
